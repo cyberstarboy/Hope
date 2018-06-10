@@ -20,10 +20,12 @@ A game of hope and inspiration created for the 2018 CGN Speedgame contest. For o
 * Open the project **Hope** if needed.
 * Select all changes on the left panel. 
 * Enter some text in the Summary text box in the left panel.
-* Press the Comit to Master link at the top of the client.
-* Press the Push to Origin link at the top of the client.
+* Press the **Commit Master** link at the top of the client.
+* Press the **Push Origin** link at the top of the client.
 
 ##### Using GitHub Client - Getting New Files
 
 * Logon into the GitHub client with your ID and password.
 * Open the project **Hope** if needed.
+* Press the **Fetch Origin** link at the top of the client.
+* Press the **Pull Origin** link at the top of the client.
