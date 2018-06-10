@@ -29,3 +29,5 @@ A game of hope and inspiration created for the 2018 CGN Speedgame contest. For o
 * Open the project **Hope** if needed.
 * Press the **Fetch Origin** link at the top of the client.
 * Press the **Pull Origin** link at the top of the client.
+
+Visit ths link if you need more information about how to use the GitHub client. [https://help.github.com/desktop/guides](https://help.github.com/desktop/guides)
