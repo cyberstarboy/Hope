@@ -1,0 +1,473 @@
+fileFormatVersion: 2
+guid: 84d1e81bd32ef40efba7985bc87512e3
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cube
+    100004: Cube.001
+    100006: Cube.002
+    100008: Cube.003
+    100010: Cube.004
+    100012: Cube.005
+    100014: Cube.006
+    100016: Cube.007
+    100018: Cube.009
+    100020: Cube.010
+    100022: Cube.011
+    100024: Cube.012
+    100026: Cube.013
+    100028: Cube.014
+    100030: Cube.015
+    100032: Cube.017
+    100034: Cube.018
+    100036: Cube.030
+    100038: Cube.031
+    100040: Cube.032
+    100042: Cube.033
+    100044: Cube.034
+    100046: Cube.035
+    100048: Cylinder.000
+    100050: Cylinder.001
+    100052: Cylinder.002
+    100054: Cylinder.003
+    100056: Cylinder.004
+    100058: Cylinder.005
+    100060: Old Style Church Pue
+    100062: Old Style Church Pue.001
+    100064: Old Style Church Pue.002
+    100066: Old Style Church Pue.003
+    100068: Old Style Church Pue.004
+    100070: Old Style Church Pue.005
+    100072: Old Style Church Pue.006
+    100074: Old Style Church Pue.007
+    100076: Sphere
+    100078: Camera
+    100080: Circle
+    100082: Circle.001
+    100084: Cube.008
+    100086: Curve.000
+    100088: Curve.014
+    100090: Curve.017
+    100092: Line02.000
+    100094: Line02.001
+    100096: Line02.002
+    100098: Line02.003
+    100100: Line02.004
+    100102: Line02.005
+    100104: Object01
+    100106: Object01.001
+    100108: Plane
+    100110: Plane.001
+    100112: Cube.016
+    100114: Cube.019
+    100116: Casing_01
+    100118: Casing_02
+    100120: Door
+    100122: Frame_02
+    100124: Frame_02.001
+    100126: hinge_01
+    100128: hinge_02
+    100130: hinge_03
+    100132: Jamb_01
+    100134: Jamb_02
+    100136: Jamb_03
+    100138: Lock_01
+    100140: Lock_02
+    100142: Lock_03
+    100144: Lock_04
+    400000: //RootNode
+    400002: Cube
+    400004: Cube.001
+    400006: Cube.002
+    400008: Cube.003
+    400010: Cube.004
+    400012: Cube.005
+    400014: Cube.006
+    400016: Cube.007
+    400018: Cube.009
+    400020: Cube.010
+    400022: Cube.011
+    400024: Cube.012
+    400026: Cube.013
+    400028: Cube.014
+    400030: Cube.015
+    400032: Cube.017
+    400034: Cube.018
+    400036: Cube.030
+    400038: Cube.031
+    400040: Cube.032
+    400042: Cube.033
+    400044: Cube.034
+    400046: Cube.035
+    400048: Cylinder.000
+    400050: Cylinder.001
+    400052: Cylinder.002
+    400054: Cylinder.003
+    400056: Cylinder.004
+    400058: Cylinder.005
+    400060: Old Style Church Pue
+    400062: Old Style Church Pue.001
+    400064: Old Style Church Pue.002
+    400066: Old Style Church Pue.003
+    400068: Old Style Church Pue.004
+    400070: Old Style Church Pue.005
+    400072: Old Style Church Pue.006
+    400074: Old Style Church Pue.007
+    400076: Sphere
+    400078: Camera
+    400080: Circle
+    400082: Circle.001
+    400084: Cube.008
+    400086: Curve.000
+    400088: Curve.014
+    400090: Curve.017
+    400092: Line02.000
+    400094: Line02.001
+    400096: Line02.002
+    400098: Line02.003
+    400100: Line02.004
+    400102: Line02.005
+    400104: Object01
+    400106: Object01.001
+    400108: Plane
+    400110: Plane.001
+    400112: Cube.016
+    400114: Cube.019
+    400116: Casing_01
+    400118: Casing_02
+    400120: Door
+    400122: Frame_02
+    400124: Frame_02.001
+    400126: hinge_01
+    400128: hinge_02
+    400130: hinge_03
+    400132: Jamb_01
+    400134: Jamb_02
+    400136: Jamb_03
+    400138: Lock_01
+    400140: Lock_02
+    400142: Lock_03
+    400144: Lock_04
+    2000000: Camera
+    2100000: Material.020
+    2100002: Material.002
+    2100004: Material.001
+    2100006: Material.003
+    2100008: Material.015
+    2100010: Material.016
+    2100012: Material.017
+    2100014: Material.019
+    2100016: Material.018
+    2100018: Material.021
+    2100020: Material.023
+    2100022: wooden_
+    2100024: Material.024
+    2100026: Material.025
+    2100028: No Name
+    2100030: seffaf
+    2100032: Cross
+    2100034: Cross.001
+    2100036: Material.010
+    2100038: Material.009
+    2100040: Material.008
+    2100042: Material.004
+    2100044: gold
+    2100046: Material.006
+    2100048: Material.011
+    2100050: Material.007
+    2100052: Material.005
+    2300000: Cube
+    2300002: Cube.001
+    2300004: Cube.002
+    2300006: Cube.003
+    2300008: Cube.004
+    2300010: Cube.005
+    2300012: Cube.006
+    2300014: Cube.007
+    2300016: Cube.009
+    2300018: Cube.010
+    2300020: Cube.011
+    2300022: Cube.012
+    2300024: Cube.013
+    2300026: Cube.014
+    2300028: Cube.015
+    2300030: Cube.017
+    2300032: Cube.018
+    2300034: Cube.030
+    2300036: Cube.031
+    2300038: Cube.032
+    2300040: Cube.033
+    2300042: Cube.034
+    2300044: Cube.035
+    2300046: Cylinder.000
+    2300048: Cylinder.001
+    2300050: Cylinder.002
+    2300052: Cylinder.003
+    2300054: Cylinder.004
+    2300056: Cylinder.005
+    2300058: Old Style Church Pue
+    2300060: Old Style Church Pue.001
+    2300062: Old Style Church Pue.002
+    2300064: Old Style Church Pue.003
+    2300066: Old Style Church Pue.004
+    2300068: Old Style Church Pue.005
+    2300070: Old Style Church Pue.006
+    2300072: Old Style Church Pue.007
+    2300074: Sphere
+    2300076: Circle
+    2300078: Circle.001
+    2300080: Cube.008
+    2300082: Curve.000
+    2300084: Curve.014
+    2300086: Curve.017
+    2300088: Line02.000
+    2300090: Line02.001
+    2300092: Line02.002
+    2300094: Line02.003
+    2300096: Line02.004
+    2300098: Line02.005
+    2300100: Object01
+    2300102: Object01.001
+    2300104: Plane
+    2300106: Plane.001
+    2300108: Cube.016
+    2300110: Cube.019
+    2300112: Casing_01
+    2300114: Casing_02
+    2300116: Door
+    2300118: Frame_02
+    2300120: Frame_02.001
+    2300122: hinge_01
+    2300124: hinge_02
+    2300126: hinge_03
+    2300128: Jamb_01
+    2300130: Jamb_02
+    2300132: Jamb_03
+    2300134: Lock_01
+    2300136: Lock_02
+    2300138: Lock_03
+    2300140: Lock_04
+    3300000: Cube
+    3300002: Cube.001
+    3300004: Cube.002
+    3300006: Cube.003
+    3300008: Cube.004
+    3300010: Cube.005
+    3300012: Cube.006
+    3300014: Cube.007
+    3300016: Cube.009
+    3300018: Cube.010
+    3300020: Cube.011
+    3300022: Cube.012
+    3300024: Cube.013
+    3300026: Cube.014
+    3300028: Cube.015
+    3300030: Cube.017
+    3300032: Cube.018
+    3300034: Cube.030
+    3300036: Cube.031
+    3300038: Cube.032
+    3300040: Cube.033
+    3300042: Cube.034
+    3300044: Cube.035
+    3300046: Cylinder.000
+    3300048: Cylinder.001
+    3300050: Cylinder.002
+    3300052: Cylinder.003
+    3300054: Cylinder.004
+    3300056: Cylinder.005
+    3300058: Old Style Church Pue
+    3300060: Old Style Church Pue.001
+    3300062: Old Style Church Pue.002
+    3300064: Old Style Church Pue.003
+    3300066: Old Style Church Pue.004
+    3300068: Old Style Church Pue.005
+    3300070: Old Style Church Pue.006
+    3300072: Old Style Church Pue.007
+    3300074: Sphere
+    3300076: Circle
+    3300078: Circle.001
+    3300080: Cube.008
+    3300082: Curve.000
+    3300084: Curve.014
+    3300086: Curve.017
+    3300088: Line02.000
+    3300090: Line02.001
+    3300092: Line02.002
+    3300094: Line02.003
+    3300096: Line02.004
+    3300098: Line02.005
+    3300100: Object01
+    3300102: Object01.001
+    3300104: Plane
+    3300106: Plane.001
+    3300108: Cube.016
+    3300110: Cube.019
+    3300112: Casing_01
+    3300114: Casing_02
+    3300116: Door
+    3300118: Frame_02
+    3300120: Frame_02.001
+    3300122: hinge_01
+    3300124: hinge_02
+    3300126: hinge_03
+    3300128: Jamb_01
+    3300130: Jamb_02
+    3300132: Jamb_03
+    3300134: Lock_01
+    3300136: Lock_02
+    3300138: Lock_03
+    3300140: Lock_04
+    4300000: Old Style Church Pue.007
+    4300002: Old Style Church Pue.006
+    4300004: Old Style Church Pue.005
+    4300006: Old Style Church Pue.004
+    4300008: Old Style Church Pue.003
+    4300010: Old Style Church Pue.002
+    4300012: Old Style Church Pue.001
+    4300014: Cube.006
+    4300016: Cube.011
+    4300018: Cube.018
+    4300020: Cube.017
+    4300022: Cube.015
+    4300024: Cube.005
+    4300026: Cube.001
+    4300028: Cube.007
+    4300030: Cube.014
+    4300032: Cube.013
+    4300034: Cube.012
+    4300036: Cube.010
+    4300038: Cube.009
+    4300040: Cube.004
+    4300042: Cube.003
+    4300044: Cube.002
+    4300046: Cube
+    4300048: Cube.030
+    4300050: Cube.032
+    4300052: Cube.031
+    4300054: Cylinder.000
+    4300056: Cylinder.001
+    4300058: Sphere
+    4300060: Cube.034
+    4300062: Cube.035
+    4300064: Cube.033
+    4300066: Cylinder.002
+    4300068: Cylinder.003
+    4300070: Cylinder.004
+    4300072: Cylinder.005
+    4300074: Old Style Church Pue
+    4300076: Plane.001
+    4300078: Object01.001
+    4300080: Line02.005
+    4300082: Line02.004
+    4300084: Line02.003
+    4300086: Curve.000
+    4300088: Circle.001
+    4300090: Circle
+    4300092: Cube.008
+    4300094: Curve.014
+    4300096: Curve.017
+    4300098: Line02.000
+    4300100: Line02.001
+    4300102: Line02.002
+    4300104: Object01
+    4300106: Plane
+    4300108: Cube.016
+    4300110: Cube.019
+    4300112: Casing_01
+    4300114: Casing_02
+    4300116: Door
+    4300118: Frame_02.001
+    4300120: Frame_02
+    4300122: hinge_01
+    4300124: hinge_02
+    4300126: hinge_03
+    4300128: Lock_01
+    4300130: Lock_02
+    4300132: Lock_03
+    4300134: Lock_04
+    4300136: Jamb_01
+    4300138: Jamb_02
+    4300140: Jamb_03
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
