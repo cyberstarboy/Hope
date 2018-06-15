@@ -9,11 +9,6 @@ public class PlayerLook : MonoBehaviour
 
     float xAxisClamp = 0.0f;
 
-    void Awake()
-    {
-        Cursor.lockState = CursorLockMode.Locked;
-    }
-
     void Update()
     {
         RotateCamera();       
@@ -47,15 +42,9 @@ public class PlayerLook : MonoBehaviour
             targetRotCam.x = 270;
         }
 
-        print(mouseY);
-
-
         transform.rotation = Quaternion.Euler(targetRotCam);
         playerBody.rotation = Quaternion.Euler(targetRotBody);
 
-
     }
-
-
 
 }

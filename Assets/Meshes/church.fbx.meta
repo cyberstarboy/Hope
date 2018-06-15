@@ -76,6 +76,9 @@ ModelImporter:
     100140: Lock_02
     100142: Lock_03
     100144: Lock_04
+    100146: Bookcase
+    100148: Bookcase.001
+    100150: Cube.020
     400000: //RootNode
     400002: Cube
     400004: Cube.001
@@ -149,6 +152,9 @@ ModelImporter:
     400140: Lock_02
     400142: Lock_03
     400144: Lock_04
+    400146: Bookcase
+    400148: Bookcase.001
+    400150: Cube.020
     2000000: Camera
     2100000: Material.020
     2100002: Material.002
@@ -177,6 +183,7 @@ ModelImporter:
     2100048: Material.011
     2100050: Material.007
     2100052: Material.005
+    2100054: Bookcase
     2300000: Cube
     2300002: Cube.001
     2300004: Cube.002
@@ -248,6 +255,9 @@ ModelImporter:
     2300136: Lock_02
     2300138: Lock_03
     2300140: Lock_04
+    2300142: Bookcase
+    2300144: Bookcase.001
+    2300146: Cube.020
     3300000: Cube
     3300002: Cube.001
     3300004: Cube.002
@@ -319,6 +329,9 @@ ModelImporter:
     3300136: Lock_02
     3300138: Lock_03
     3300140: Lock_04
+    3300142: Bookcase
+    3300144: Bookcase.001
+    3300146: Cube.020
     4300000: Old Style Church Pue.007
     4300002: Old Style Church Pue.006
     4300004: Old Style Church Pue.005
@@ -390,6 +403,9 @@ ModelImporter:
     4300136: Jamb_01
     4300138: Jamb_02
     4300140: Jamb_03
+    4300142: Bookcase.001
+    4300144: Bookcase
+    4300146: Cube.020
   externalObjects: {}
   materials:
     importMaterials: 1
