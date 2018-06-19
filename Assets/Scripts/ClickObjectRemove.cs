@@ -5,6 +5,8 @@ using UnityEngine;
 [RequireComponent(typeof(AudioSource))]
 public class ClickObjectRemove : MonoBehaviour {
 
+    static public int TriggerCnt1 = 00;
+
     public AudioClip impact;
     AudioSource audioSource;
 
@@ -30,6 +32,13 @@ public class ClickObjectRemove : MonoBehaviour {
 
     void OnMouseUpAsButton()
     {
+          if (TriggerCnt1 == 11)
+          {
+            Debug.Log("Exit Church");
+          }
+        TriggerCnt1++;
+        Debug.Log(TriggerCnt1);
+
         Destroy(gameObject);
     }
 
