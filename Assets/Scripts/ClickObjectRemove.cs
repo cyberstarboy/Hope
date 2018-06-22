@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(AudioSource))]
 public class ClickObjectRemove : MonoBehaviour {
 
-    static public int TriggerCnt1 = 00;
+    static public int TriggerCnt1 = 0;
 
     public AudioClip impact;
     public AudioClip open;
@@ -26,7 +26,8 @@ public class ClickObjectRemove : MonoBehaviour {
         audioSource = GetComponent<AudioSource>();
         rend = GetComponent<Renderer>();
         shader1 = Shader.Find("Standard");
-        shader2 = Shader.Find("Transparent/Diffuse");
+        shader2 = Shader.Find("Legacy Shaders/Transparent/Bumped Specular");
+        shader2 = Shader.Find("Legacy Shaders/VertexLit");
     }
 
     void OnMouseDown()

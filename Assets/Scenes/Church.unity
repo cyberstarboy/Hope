@@ -289,6 +289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   impact: {fileID: 8300000, guid: ae623257978b94e439731e76ae7591ad, type: 3}
+  open: {fileID: 0}
   scene: 
   shader1: {fileID: 0}
   shader2: {fileID: 0}
@@ -1452,6 +1453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   impact: {fileID: 8300000, guid: ae623257978b94e439731e76ae7591ad, type: 3}
+  open: {fileID: 0}
   scene: 
   shader1: {fileID: 0}
   shader2: {fileID: 0}
@@ -1962,6 +1964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   impact: {fileID: 8300000, guid: ae623257978b94e439731e76ae7591ad, type: 3}
+  open: {fileID: 0}
   scene: 
   shader1: {fileID: 0}
   shader2: {fileID: 0}
@@ -2551,6 +2554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   impact: {fileID: 8300000, guid: ae623257978b94e439731e76ae7591ad, type: 3}
+  open: {fileID: 0}
   scene: 
   shader1: {fileID: 0}
   shader2: {fileID: 0}
@@ -3069,6 +3073,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   impact: {fileID: 8300000, guid: ae623257978b94e439731e76ae7591ad, type: 3}
+  open: {fileID: 0}
   scene: 
   shader1: {fileID: 0}
   shader2: {fileID: 0}
@@ -3269,6 +3274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   impact: {fileID: 8300000, guid: ae623257978b94e439731e76ae7591ad, type: 3}
+  open: {fileID: 0}
   scene: 
   shader1: {fileID: 0}
   shader2: {fileID: 0}
@@ -4263,6 +4269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   impact: {fileID: 8300000, guid: ae623257978b94e439731e76ae7591ad, type: 3}
+  open: {fileID: 0}
   scene: 
   shader1: {fileID: 0}
   shader2: {fileID: 0}
@@ -5340,6 +5347,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   impact: {fileID: 8300000, guid: ae623257978b94e439731e76ae7591ad, type: 3}
+  open: {fileID: 0}
   scene: 
   shader1: {fileID: 0}
   shader2: {fileID: 0}
@@ -5712,6 +5720,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   impact: {fileID: 8300000, guid: ae623257978b94e439731e76ae7591ad, type: 3}
+  open: {fileID: 0}
   scene: 
   shader1: {fileID: 0}
   shader2: {fileID: 0}
@@ -7830,6 +7839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   impact: {fileID: 8300000, guid: ae623257978b94e439731e76ae7591ad, type: 3}
+  open: {fileID: 0}
   scene: 
   shader1: {fileID: 0}
   shader2: {fileID: 0}
@@ -8979,6 +8989,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   impact: {fileID: 8300000, guid: ae623257978b94e439731e76ae7591ad, type: 3}
+  open: {fileID: 8300000, guid: c0a1ff222b13848ce92bc05cad5efad0, type: 3}
   scene: World
   shader1: {fileID: 0}
   shader2: {fileID: 0}
@@ -9260,6 +9271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   impact: {fileID: 8300000, guid: ae623257978b94e439731e76ae7591ad, type: 3}
+  open: {fileID: 0}
   scene: 
   shader1: {fileID: 0}
   shader2: {fileID: 0}
