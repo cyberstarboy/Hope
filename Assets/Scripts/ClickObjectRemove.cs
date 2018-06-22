@@ -26,7 +26,6 @@ public class ClickObjectRemove : MonoBehaviour {
         audioSource = GetComponent<AudioSource>();
         rend = GetComponent<Renderer>();
         shader1 = Shader.Find("Standard");
-        shader2 = Shader.Find("Legacy Shaders/Transparent/Bumped Specular");
         shader2 = Shader.Find("Legacy Shaders/VertexLit");
     }
 
