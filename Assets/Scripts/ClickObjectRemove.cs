@@ -21,7 +21,7 @@ public class ClickObjectRemove : MonoBehaviour {
     {
         audioSource = GetComponent<AudioSource>();
         rend = GetComponent<Renderer>();
-        shader1 = Shader.Find("Diffuse");
+        shader1 = Shader.Find("Standard");
         shader2 = Shader.Find("Transparent/Diffuse");
     }
 
