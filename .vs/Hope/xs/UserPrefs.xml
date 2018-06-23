@@ -1,13 +1,16 @@
 ﻿<Properties StartupConfiguration="{3C71A4C4-1CC4-9EBE-7342-BB45CE6095A7}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SplashScreen.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Globals.cs">
     <Files>
       <File FileName="Assets/Scripts/ClickObjectRemove.cs" Line="28" Column="43" />
       <File FileName="Assets/Scripts/PlayerLook.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/PlayerMove.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/NPCInteractions.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/TriggerScripts.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/SplashScreen.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SplashScreen.cs" Line="15" Column="48" />
+      <File FileName="Assets/Scripts/EndGame.cs" Line="3" Column="17" />
+      <File FileName="Assets/Scripts/testrun.cs" Line="5" Column="28" />
+      <File FileName="Assets/Scripts/Globals.cs" Line="7" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
