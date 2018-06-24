@@ -15,7 +15,7 @@ public class SplashScreen : MonoBehaviour
     IEnumerator Start()
     {
         audioSource = GetComponent<AudioSource>();
-        Globals.IsEndGame = false;
+        Globals.IsEndGame = true;
         splashImage.canvasRenderer.SetAlpha(0.0f);
         splashImage.CrossFadeAlpha(1.0f, 1.5f, false);
         yield return new WaitForSeconds(10.0f);

@@ -6,7 +6,4 @@ public class Globals : MonoBehaviour {
 
     public static bool IsEndGame;
 
-	void Start () {
-		
-	}
 }

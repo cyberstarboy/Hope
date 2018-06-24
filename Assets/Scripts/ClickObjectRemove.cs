@@ -50,6 +50,7 @@ public class ClickObjectRemove : MonoBehaviour {
         {
             if (TriggerCnt1 == 11)
             {
+                Globals.IsEndGame = true;
                 SceneManager.LoadScene(scene);
             }
         }
