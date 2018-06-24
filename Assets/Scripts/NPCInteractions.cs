@@ -114,7 +114,7 @@ public class NPCInteractions : MonoBehaviour {
     {
         Debug.Log("OnTriggerEnter");
         Debug.Log(other.gameObject.name);
-        triggerVal = 6;
+        triggerVal = scoreVal;
         Debug.Log("triggerVal = " + triggerVal);
         currentTriggerVal = triggerVal;
         Debug.Log("currentTriggerVal = " + currentTriggerVal);
