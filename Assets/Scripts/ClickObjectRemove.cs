@@ -1,14 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(AudioSource))]
 public class ClickObjectRemove : MonoBehaviour {
 
-    static public int TriggerCnt1 = 00;
+    static public int TriggerCnt1 = 0;
 
     public AudioClip impact;
+    public AudioClip open;
     AudioSource audioSource;
+
+    public string scene;
 
     [HideInInspector]
     public Shader shader1;
@@ -21,30 +25,55 @@ public class ClickObjectRemove : MonoBehaviour {
     {
         audioSource = GetComponent<AudioSource>();
         rend = GetComponent<Renderer>();
-        shader1 = Shader.Find("Diffuse");
-        shader2 = Shader.Find("Transparent/Diffuse");
+        shader1 = Shader.Find("Standard");
+        shader2 = Shader.Find("Legacy Shaders/VertexLit");
     }
 
     void OnMouseDown()
     {
-        audioSource.PlayOneShot(impact, 0.7F);
+        if (gameObject.name == "DoorTrigger")
+        {
+            if (TriggerCnt1 == 11)
+            {
+                audioSource.PlayOneShot(open, 0.7F);
+            }
+        }
+        else
+        {
+            audioSource.PlayOneShot(impact, 0.7F);
+        }
     }
 
     void OnMouseUpAsButton()
     {
-          if (TriggerCnt1 == 11)
-          {
-            Debug.Log("Exit Church");
-          }
-        TriggerCnt1++;
-        Debug.Log(TriggerCnt1);
-
-        Destroy(gameObject);
+        if (gameObject.name == "DoorTrigger")
+        {
+            if (TriggerCnt1 == 11)
+            {
+                Globals.IsEndGame = true;
+                SceneManager.LoadScene(scene);
+            }
+        }
+        else
+        {
+            TriggerCnt1++;
+            Destroy(gameObject);
+        }
     }
 
     void OnMouseOver()
     {
-        rend.material.shader = shader2;
+        if (gameObject.name == "DoorTrigger")
+        {
+            if (TriggerCnt1 == 11)
+            {
+                rend.material.shader = shader2;
+            }
+        }
+        else
+        {
+            rend.material.shader = shader2;
+        }
     }
 
     void OnMouseExit()
