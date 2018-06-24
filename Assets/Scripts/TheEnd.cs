@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
 [RequireComponent(typeof(AudioSource))]
 public class TheEnd : MonoBehaviour {
@@ -46,7 +47,9 @@ public class TheEnd : MonoBehaviour {
         if (Globals.IsEndGame == true)
         {
             yield return new WaitForSeconds(12.0f);
-            UnityEditor.EditorApplication.isPlaying = false;
+            #if UNITY_EDITOR 
+                UnityEditor.EditorApplication.isPlaying = false;
+            #endif
             Application.Quit();
         }
     }
