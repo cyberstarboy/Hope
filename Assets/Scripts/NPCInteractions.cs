@@ -16,7 +16,6 @@ public class NPCInteractions : MonoBehaviour {
     [SerializeField] GameObject colorPlane = null;
     [SerializeField] GameObject triggerBox = null;
     [SerializeField] GameObject NPCObject = null;
-    [SerializeField] bool deactivateCharacter = false;
     [SerializeField] int currentTriggerVal = 0;
     [SerializeField] int triggerVal = 0;
     [SerializeField] int scoreVal = 0;
@@ -37,9 +36,13 @@ public class NPCInteractions : MonoBehaviour {
         {
             // Show activation text
             Debug.Log("Deactivating SPACE BAR text");
-            activationText.SetActive(false);
 
-            StartCoroutine(ShowDialogue());
+            if (!Globals.DialogueOn)
+            {
+                activationText.SetActive(false);
+                Globals.DialogueOn = true;
+                StartCoroutine(ShowDialogue());
+            }
         }
 	}
 
@@ -86,12 +89,15 @@ public class NPCInteractions : MonoBehaviour {
         Debug.Log("Activating Interactions for: " + scoreVal);
 
         tract.SetActive(true);
-        yield return new WaitForSecondsRealtime(dialogueSeconds);
+        yield return new WaitForSecondsRealtime(dialogueSeconds + 2);
         currentScore = currentScore + scoreVal;
         if (currentScore >= maxScore)
         {
             //Show score and head to church to end the game
             Debug.Log("Go back to church and end the game");
+            Globals.DialogueOn = true;
+            Globals.FinishedInteractions = true;
+            Globals.TotalScore = currentScore;
         }
         else
         {
@@ -107,7 +113,9 @@ public class NPCInteractions : MonoBehaviour {
         tract.SetActive(false);
         colorPlane.SetActive(false);
         cameraCanvas.SetActive(false);
-        deactivateCharacter = true;
+
+        //Since finished -- let the game interact again
+        Globals.DialogueOn = false;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -121,22 +129,32 @@ public class NPCInteractions : MonoBehaviour {
 
         // Show activation text
         Debug.Log("Activating SPACE BAR text");
-        activationText.SetActive(true);
+        if (!Globals.DialogueOn)
+        {
+            triggerVal = scoreVal;
+            Debug.Log("triggerVal = " + triggerVal);
+            currentTriggerVal = triggerVal;
+            Debug.Log("currentTriggerVal = " + currentTriggerVal);
+
+            activationText.SetActive(true);
+        }
     }
 
     private void OnTriggerExit(Collider other)
     {
         Debug.Log("OnTriggerEnter");
         Debug.Log(other.gameObject.name);
-        triggerVal = 0;
-        Debug.Log("triggerVal = " + triggerVal);
-        Debug.Log("currentTriggerVal = " + currentTriggerVal);
 
-        if(deactivateCharacter == true)
+
+        if(Globals.DialogueOn == true)
         {
+            triggerVal = 0;
+            Debug.Log("triggerVal = " + triggerVal);
+            Debug.Log("currentTriggerVal = " + currentTriggerVal);
+            Debug.Log("Deactivate character and collider later");
             //    NPCObject.SetActive(false);
             //    triggerBox.SetActive(false);
-            Debug.Log("Deactivate character and collider later");
+            activationText.SetActive(false);
         }
     }
 
