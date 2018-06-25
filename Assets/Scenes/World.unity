@@ -1192,7 +1192,6 @@ MonoBehaviour:
   colorPlane: {fileID: 554540779}
   triggerBox: {fileID: 50990104}
   NPCObject: {fileID: 1430682800}
-  deactivateCharacter: 0
   currentTriggerVal: 0
   triggerVal: 3
   scoreVal: 3
@@ -5868,7 +5867,6 @@ MonoBehaviour:
   colorPlane: {fileID: 1549156883}
   triggerBox: {fileID: 218710173}
   NPCObject: {fileID: 1197160861}
-  deactivateCharacter: 0
   currentTriggerVal: 0
   triggerVal: 2
   scoreVal: 2
@@ -8611,7 +8609,6 @@ MonoBehaviour:
   colorPlane: {fileID: 1662497315}
   triggerBox: {fileID: 346963733}
   NPCObject: {fileID: 2081458519}
-  deactivateCharacter: 0
   currentTriggerVal: 0
   triggerVal: 10
   scoreVal: 10
@@ -9237,7 +9234,6 @@ MonoBehaviour:
   colorPlane: {fileID: 1589344504}
   triggerBox: {fileID: 361570890}
   NPCObject: {fileID: 1781388732}
-  deactivateCharacter: 0
   currentTriggerVal: 0
   triggerVal: 4
   scoreVal: 4
@@ -9820,7 +9816,6 @@ MonoBehaviour:
   colorPlane: {fileID: 1821059333}
   triggerBox: {fileID: 392040224}
   NPCObject: {fileID: 148358102}
-  deactivateCharacter: 0
   currentTriggerVal: 0
   triggerVal: 9
   scoreVal: 9
@@ -22512,7 +22507,6 @@ MonoBehaviour:
   colorPlane: {fileID: 72303121}
   triggerBox: {fileID: 861901473}
   NPCObject: {fileID: 926748109}
-  deactivateCharacter: 0
   currentTriggerVal: 0
   triggerVal: 6
   scoreVal: 6
@@ -24658,7 +24652,6 @@ MonoBehaviour:
   colorPlane: {fileID: 1549156883}
   triggerBox: {fileID: 957211486}
   NPCObject: {fileID: 1821100946}
-  deactivateCharacter: 0
   currentTriggerVal: 0
   triggerVal: 1
   scoreVal: 1
@@ -26274,7 +26267,6 @@ MonoBehaviour:
   colorPlane: {fileID: 1873450189}
   triggerBox: {fileID: 1010254466}
   NPCObject: {fileID: 11671533}
-  deactivateCharacter: 0
   currentTriggerVal: 0
   triggerVal: 7
   scoreVal: 7
@@ -31083,7 +31075,6 @@ MonoBehaviour:
   colorPlane: {fileID: 1873450189}
   triggerBox: {fileID: 1187347302}
   NPCObject: {fileID: 1421140987}
-  deactivateCharacter: 0
   currentTriggerVal: 0
   triggerVal: 5
   scoreVal: 5
@@ -31384,7 +31375,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 4300004, guid: 834e50792758c4a74940031f6c4ff348, type: 3}
 --- !u!114 &1197160865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32837,7 +32828,6 @@ MonoBehaviour:
   colorPlane: {fileID: 824197786}
   triggerBox: {fileID: 1258663828}
   NPCObject: {fileID: 1841062483}
-  deactivateCharacter: 0
   currentTriggerVal: 0
   triggerVal: 8
   scoreVal: 8
@@ -50408,6 +50398,7 @@ GameObject:
   - component: {fileID: 1954940645}
   - component: {fileID: 1954940644}
   - component: {fileID: 1954940643}
+  - component: {fileID: 1954940648}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -50478,6 +50469,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1954940648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1954940642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 539a3887e3d32414f852edb8a89ab660, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1956196068
 Prefab:
   m_ObjectHideFlags: 0
