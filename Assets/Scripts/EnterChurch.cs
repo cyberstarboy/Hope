@@ -28,22 +28,34 @@ public class EnterChurch : MonoBehaviour {
 
     void OnMouseDown()
     {
-        audioSource.PlayOneShot(click, 0.7F);
+        if (Globals.FinishedInteractions == true)
+        {
+            audioSource.PlayOneShot(click, 0.7F);
+        }
     }
 
     void OnMouseUpAsButton()
     {
-         Globals.IsEndGame = true;
-         SceneManager.LoadScene(scene);
+        if (Globals.FinishedInteractions == true)
+        {
+            Globals.IsEndGame = true;
+            SceneManager.LoadScene(scene);
+        }
     }
 
     void OnMouseOver()
     {
-        rend.material.shader = shader2;
+        if (Globals.FinishedInteractions == true)
+        {
+            rend.material.shader = shader2;
+        }
     }
 
     void OnMouseExit()
     {
-        rend.material.shader = shader1;
+        if (Globals.FinishedInteractions == true)
+        {
+            rend.material.shader = shader1;
+        }
     }
 }

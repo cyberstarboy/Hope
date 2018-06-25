@@ -1,20 +1,12 @@
 ﻿<Properties StartupConfiguration="{3C71A4C4-1CC4-9EBE-7342-BB45CE6095A7}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ClickObjectRemove.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Globals.cs">
     <Files>
-      <File FileName="Assets/Scripts/ClickObjectRemove.cs" Line="11" Column="5" />
-      <File FileName="Assets/Scripts/PlayerLook.cs" Line="46" Column="9" />
-      <File FileName="Assets/Scripts/PlayerMove.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ClickObjectRemove.cs" Line="64" Column="23" />
       <File FileName="Assets/Scripts/SplashScreen.cs" Line="13" Column="29" />
-      <File FileName="Assets/Scripts/EndGame.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Globals.cs" Line="8" Column="1" />
-      <File FileName="Assets/Scripts/TheEnd.cs" Line="50" Column="1" />
-      <File FileName="Assets/Scripts/NPCLookAt.cs" Line="13" Column="10" />
-      <File FileName="Assets/Scripts/ExitGame.cs" Line="8" Column="6" />
-      <File FileName="Assets/Scripts/DialogueTrigger.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/DialogueManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Dialogue.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/EnterChurch.cs" Line="11" Column="2" />
+      <File FileName="Assets/Scripts/EnterChurch.cs" Line="29" Column="23" />
+      <File FileName="Assets/Scripts/ExitGame.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Globals.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
