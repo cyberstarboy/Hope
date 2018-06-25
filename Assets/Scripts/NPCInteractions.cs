@@ -102,12 +102,17 @@ public class NPCInteractions : MonoBehaviour {
         Debug.Log("DialogueOn = " + Globals.DialogueOn);
         Globals.DialogueOn = 0;
         currentScore = currentScore + scoreVal;
-        if (currentScore >= maxScore)
+        Debug.Log("currentScore = " + currentScore);
+        Globals.TotalScore = Globals.TotalScore + scoreVal;
+        Debug.Log("TotalScore = " + Globals.TotalScore);
+        if (Globals.TotalScore >= maxScore)
         {
             //Show score and head to church to end the game
             Debug.Log("Go back to church and end the game");
             Globals.FinishedInteractions = true;
             Globals.TotalScore = currentScore;
+            Debug.Log("TotalScore = " + Globals.TotalScore);
+            Debug.Log("Finished Interactions = " + Globals.FinishedInteractions);
         }
         else
         {
