@@ -348,6 +348,19 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300004, guid: 3e2a02a56161f4581b90a2990357cc88, type: 3}
+--- !u!114 &11671537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 11671533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc9a96ca35f542f086869f8e3bc9af8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1954940647}
+  speed: 5
 --- !u!1 &23145513
 GameObject:
   m_ObjectHideFlags: 0
@@ -415,7 +428,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: How can I help?
+  m_Text: Can I help you?
 --- !u!222 &23145516
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -703,7 +716,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Why is life so hard?
+  m_Text: 'Would you like to buy some love potions?
+
+    I have lots of other items you might like.'
 --- !u!222 &29254713
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1448,7 +1463,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Stefani:'
+  m_Text: 'Shae:'
 --- !u!222 &69476543
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1488,7 +1503,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &72303123
 MonoBehaviour:
@@ -3085,7 +3100,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Stefani:'
+  m_Text: 'Regina:'
 --- !u!222 &129403468
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3574,6 +3589,19 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300004, guid: 813eb5371df604a8f988dc004eba1655, type: 3}
+--- !u!114 &148358106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 148358102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc9a96ca35f542f086869f8e3bc9af8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1954940647}
+  speed: 5
 --- !u!1 &150887138
 GameObject:
   m_ObjectHideFlags: 0
@@ -4000,7 +4028,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Stefani:'
+  m_Text: 'Andromeda:'
 --- !u!222 &156002061
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4772,7 +4800,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Hello! My Name is Stefani.
+  m_Text: 'Hello! My name is Regina.
 
     Can you help me?'
 --- !u!222 &195675515
@@ -5109,7 +5137,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4, y: 4, z: 4}
+  m_Size: {x: 6, y: 6, z: 6}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &218710176
 MeshRenderer:
@@ -5832,7 +5860,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Stefani:'
+  m_Text: 'Remy:'
 --- !u!222 &266956577
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6634,7 +6662,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &301619192
 MonoBehaviour:
@@ -6932,9 +6960,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Hello! My Name is Stefani.
-
-    Can you help me?'
+  m_Text: Oh no!  I did not get here in time!
 --- !u!222 &322217008
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7441,7 +7467,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 346963733}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 27.92, y: -14.28, z: 31.32}
+  m_LocalPosition: {x: 43.5, y: -14.28, z: 53.12}
   m_LocalScale: {x: 1, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7625,9 +7651,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Hello! My Name is Stefani.
+  m_Text: 'Hello! My Name is George.
 
-    Can you help me?'
+    What are you doing?'
 --- !u!222 &353201192
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8067,7 +8093,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 361570890}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 27.92, y: -14.28, z: 31.32}
+  m_LocalPosition: {x: -56.46, y: -14.28, z: 2.45}
   m_LocalScale: {x: 1, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8287,7 +8313,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &373351021
 Prefab:
@@ -8576,7 +8602,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 392040224}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 27.92, y: -14.28, z: 31.32}
+  m_LocalPosition: {x: -71.3, y: -14.28, z: 41.2}
   m_LocalScale: {x: 1, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8649,14 +8675,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Sure but I also want to tell you about
+  m_Text: 'I am so sorry you are having to go
 
-    someone who loves you very much and
+    through this. Did you know that the
 
-    will always provide for your needs.
+    Bible tells us we will face trials and
 
+    tribulations but not matter what, He
 
-    Here.'
+    will always be with you.'
 --- !u!222 &393833899
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9343,7 +9370,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: How can I help?
+  m_Text: What happened?
 --- !u!222 &438083964
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11936,7 +11963,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Stefani:'
+  m_Text: 'George:'
 --- !u!222 &554376623
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12009,7 +12036,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &555643635 stripped
 Transform:
@@ -12448,9 +12475,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Hello! My Name is Stefani.
-
-    Can you help me?'
+  m_Text: Hello! My name is Remy.
 --- !u!222 &579224556
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12958,7 +12983,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: How can I help?
+  m_Text: Yes, I do.
 --- !u!222 &588766228
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15299,11 +15324,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Well,  I am so hungry and broke.
-
-    Can you please help me out with
-
-    some food and gas for my car.'
+  m_Text: "I have lived here for over 45 years and\nno one has ever offered to share
+    the \nGospel? I would be glad to hear what you\nhave to say."
 --- !u!222 &682548836
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16431,14 +16453,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Sure but I also want to tell you about
-
-    someone who loves you very much and
-
-    will always provide for your needs.
-
-
-    Here.'
+  m_Text: "You know things are only temporary.\nEven phones are constantly changing.\nHowever,
+    God has a bigger purpose \nfor your life. Would you like to know\nwhat it is?"
 --- !u!222 &719130043
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16512,7 +16528,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Stefani:'
+  m_Text: 'George:'
 --- !u!222 &723356569
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16654,7 +16670,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Stefani:'
+  m_Text: 'Regina:'
 --- !u!222 &733142859
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16817,7 +16833,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Jasper:'
+  m_Text: 'Liam:'
 --- !u!222 &738717111
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16965,14 +16981,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Sure but I also want to tell you about
+  m_Text: 'Sure.  How about if I wait with you
 
-    someone who loves you very much and
+    until help comes.  Have you ever
 
-    will always provide for your needs.
-
-
-    Here.'
+    read the Bible?'
 --- !u!222 &741448167
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17658,7 +17671,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: How can I help?
+  m_Text: 'What are you doing walking all the
+
+    way out here?'
 --- !u!222 &773567269
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18880,7 +18895,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &825359637
 Prefab:
@@ -20230,7 +20245,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 8, y: 8, z: 8}
+  m_Size: {x: 6, y: 6, z: 6}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &861901478
 MeshRenderer:
@@ -20354,11 +20369,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Well,  I am so hungry and broke.
+  m_Text: 'I had to clear my head. I have to go to court on Monday
 
-    Can you please help me out with
+    and I have no idea what will happen.  I cannot believe I
 
-    some food and gas for my car.'
+    am in such a dreadful position.'
 --- !u!222 &863008201
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21501,6 +21516,19 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300004, guid: 37fb4eaf1ddb84e92bfad7b4c5663c62, type: 3}
+--- !u!114 &926748113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 926748109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc9a96ca35f542f086869f8e3bc9af8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1954940647}
+  speed: 5
 --- !u!1 &929552530
 GameObject:
   m_ObjectHideFlags: 0
@@ -22073,14 +22101,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Sure but I also want to tell you about
-
-    someone who loves you very much and
-
-    will always provide for your needs.
-
-
-    Here.'
+  m_Text: "Well, let's use this card along with the \nBible to answer any questions
+    you may\nhave."
 --- !u!222 &944587763
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22203,7 +22225,7 @@ MonoBehaviour:
   dialogue2: {fileID: 1289715057}
   dialogue3: {fileID: 1276568019}
   dialogue4: {fileID: 1378287630}
-  tract: {fileID: 372793705}
+  tract: {fileID: 725130936}
   colorPlane: {fileID: 1549156883}
   triggerBox: {fileID: 957211486}
   NPCObject: {fileID: 1821100946}
@@ -22224,7 +22246,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4, y: 4, z: 4}
+  m_Size: {x: 6, y: 6, z: 6}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &957211489
 MeshRenderer:
@@ -22275,7 +22297,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 957211486}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 26.55, y: -14, z: 21.8}
+  m_LocalPosition: {x: 61.09, y: -14, z: 21.92}
   m_LocalScale: {x: 1, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -23889,7 +23911,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1010254466}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 27.92, y: -14.28, z: 31.32}
+  m_LocalPosition: {x: 27.92, y: -14.28, z: -19.1}
   m_LocalScale: {x: 1, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -27132,9 +27154,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Hello! My Name is Stefani.
+  m_Text: 'Hello! My Name is Andromeda.
 
-    Can you help me?'
+    Do you go to that church there?'
 --- !u!222 &1151522424
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -28528,6 +28550,19 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300004, guid: 834e50792758c4a74940031f6c4ff348, type: 3}
+--- !u!114 &1197160865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1197160861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc9a96ca35f542f086869f8e3bc9af8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1954940647}
+  speed: 5
 --- !u!1 &1199207299
 GameObject:
   m_ObjectHideFlags: 0
@@ -28877,11 +28912,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Well,  I am so hungry and broke.
+  m_Text: 'I have locked my keys and cell phone
 
-    Can you please help me out with
+    in my car. Can I borrow your phone
 
-    some food and gas for my car.'
+    to get some help?'
 --- !u!222 &1211726356
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29795,7 +29830,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1258663828}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 27.92, y: -14.28, z: 31.32}
+  m_LocalPosition: {x: -71.2, y: -14.28, z: -33.2}
   m_LocalScale: {x: 1, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -32358,11 +32393,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Well,  I am so hungry and broke.
+  m_Text: 'I cannot believe they sold out of the
 
-    Can you please help me out with
+    latest phone. How am I going to stay
 
-    some food and gas for my car.'
+    in contact with the world?  All of my
+
+    friends got theirs!'
 --- !u!222 &1348334156
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -32890,7 +32927,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Stefani:'
+  m_Text: 'Shae:'
 --- !u!222 &1367635549
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -33977,6 +34014,19 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300004, guid: 7a479cb2780e64d3ca01aa86167a9e0f, type: 3}
+--- !u!114 &1421140991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1421140987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc9a96ca35f542f086869f8e3bc9af8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1954940647}
+  speed: 5
 --- !u!1001 &1422311285
 Prefab:
   m_ObjectHideFlags: 0
@@ -34330,6 +34380,19 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300004, guid: 50c32ca9a597149d087d853a53f25061, type: 3}
+--- !u!114 &1430682804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1430682800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc9a96ca35f542f086869f8e3bc9af8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1954940647}
+  speed: 5
 --- !u!1 &1433338098
 GameObject:
   m_ObjectHideFlags: 0
@@ -34487,7 +34550,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Jasper:'
+  m_Text: 'Liam:'
 --- !u!222 &1433815568
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -36457,14 +36520,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Sure but I also want to tell you about
-
-    someone who loves you very much and
-
-    will always provide for your needs.
-
-
-    Here.'
+  m_Text: "Sure but first I want to tell you about \nsomeone  who loves you very much
+    \nand will always provide for your needs.\n\nHere."
 --- !u!222 &1533120797
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -36538,7 +36595,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Stefani:'
+  m_Text: 'Andromeda:'
 --- !u!222 &1536551396
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -36840,7 +36897,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1550405638
 Prefab:
@@ -37590,7 +37647,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &1589732438 stripped
 Transform:
@@ -37965,7 +38022,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Stefani:'
+  m_Text: 'Remy:'
 --- !u!222 &1616011974
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -38762,10 +38819,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Jasper, I am so sorry you are going through \nthis but do not lose hope.
-    Tomorrow will be \na better day and so will the next and the next.\nIn the mean
-    time, I am here if you need to talk, \nmy phone number  is on the back of this
-    card. \nLet me pray with you before I go."
+  m_Text: 'The desire to be accepted, wanted, and loved is a strong desire for all
+    of us but
+
+    only God can povide that.  The Bible says
+
+    ....'
 --- !u!222 &1661350307
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -38912,7 +38971,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1666415125
 Prefab:
@@ -39357,14 +39416,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Sure but I also want to tell you about
-
-    someone who loves you very much and
-
-    will always provide for your needs.
-
-
-    Here.'
+  m_Text: "Well, Jesus talked about that in\nJohn 3 of the Bible. Why don't we \nlook
+    at it together."
 --- !u!222 &1689669133
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -40920,7 +40973,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Well,  it is for my philosophy class.\nMy professor says there are no gods\nbut
-    one of my friends says that the Bible states in Psalm 14:1 \"The fool says \nin
+    one of my friends says that the Bible \nstates in Psalm 14:1 \"The fool says \nin
     his heart, there is no God.\" \nHow do I know whom to believe?"
 --- !u!222 &1767963078
 CanvasRenderer:
@@ -41066,6 +41119,19 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300004, guid: 50b16bfed92564b8a9766dd2afd8ba7e, type: 3}
+--- !u!114 &1781388736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1781388732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc9a96ca35f542f086869f8e3bc9af8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1954940647}
+  speed: 5
 --- !u!1 &1783055473
 GameObject:
   m_ObjectHideFlags: 0
@@ -41975,7 +42041,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1821100946 stripped
 GameObject:
@@ -42051,6 +42117,19 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: 0e83507ced39f47a2b37eb43ff6f5665, type: 3}
+--- !u!114 &1821100954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1821100946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc9a96ca35f542f086869f8e3bc9af8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1954940647}
+  speed: 5
 --- !u!1 &1821988204
 GameObject:
   m_ObjectHideFlags: 0
@@ -42326,6 +42405,19 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300004, guid: 5cbd34efc3576438298072f213774619, type: 3}
+--- !u!114 &1841062487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1841062483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc9a96ca35f542f086869f8e3bc9af8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1954940647}
+  speed: 5
 --- !u!1 &1849076648
 GameObject:
   m_ObjectHideFlags: 0
@@ -42990,7 +43082,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1873450191
 MonoBehaviour:
@@ -43257,9 +43349,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Excuse me.
+  m_Text: 'You know there is only one true provider
 
-    Can I help you?'
+    of love?'
 --- !u!222 &1878477396
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -43333,9 +43425,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Well,  everything was going so well. My fiancee and I were going to get
-    married next week.  \nAll of a sudden, she says \"Jasper, we cannot get married.\"
-    What did I do wrong? \n\nLife is not worth living without her."
+  m_Text: What do you mean?
 --- !u!222 &1881444560
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -44518,11 +44608,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Well,  I am so hungry and broke.
+  m_Text: 'I pray and go to church but something
 
-    Can you please help me out with
+    is missing. I read in the Bible that I
 
-    some food and gas for my car.'
+    need to be born again. What does that
+
+    mean?'
 --- !u!222 &1931418308
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -48586,6 +48678,19 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300004, guid: cec23945504d44a90947befb5e7b71be, type: 3}
+--- !u!114 &2081458523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2081458519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc9a96ca35f542f086869f8e3bc9af8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1954940647}
+  speed: 5
 --- !u!1001 &2092676590
 Prefab:
   m_ObjectHideFlags: 0
@@ -49302,7 +49407,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: How can I help?
+  m_Text: I am going around the neighborhood sharing the Gospel.
 --- !u!222 &2119524002
 CanvasRenderer:
   m_ObjectHideFlags: 0
