@@ -32,7 +32,7 @@ A game of hope and inspiration created for the 2018 CGN Speedgame contest. For o
 
 Visit ths link if you need more information about how to use the GitHub client. [https://help.github.com/desktop/guides](https://help.github.com/desktop/guides)
 
-##### Spoilers - Game Play Cheats and Hints
+## Spoilers - Game Play Cheats and Hints
 
 Adventure games often contain puzzles to solve. This is what makes them fun. This is also what makes them frustrating too. You can easily get stuck for hours trying to solve them. This game has several puzzles to solve to progress to the end of the story.
 
