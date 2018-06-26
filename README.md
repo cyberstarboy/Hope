@@ -42,7 +42,7 @@ Refer to this text if you get stuck and need hints or help to progress.
 
 * **Hint 1** - Your goal at the beginning of the game is to find a way out of the church. Pick up all 10 tracts in the shelfs at the front of the church. You also need to pick up the bible on the podium. Once all eleven objects are taken, the door will activate and you can leave. (This puzzle represents you arming yourself with the bible and scripture before you leave.)
 
-* **Hint 2** - You need to talk to all ten NPC players in the world scene to progress. Once you do this, the door to the church will activate again. You will then be able to enter it again. (Your goal in the world is to minister words of encouragement to people hurting to know Christ.)
+* **Hint 2** - You need to talk to all ten NPC players in the world scene to progress. Once you do this, the door to the church will activate again. You will then be able to enter the church. (Your goal in the world is to minister words of encouragement to people hurting to know Christ.)
 
 * **Hint 3** - Walk up to the podium and click on the top of the table to end the game. (This action represents you giving a quick speech/"thank you" to all of the people you met in the world for attending church.)
 
