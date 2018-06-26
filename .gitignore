@@ -27,7 +27,6 @@ sysinfo.txt
 *.userprefs
 *.pidb
 .DS_Store
-.vs/
 
 ###
 # OS generated
@@ -40,3 +39,10 @@ sysinfo.txt
 Icon?
 ehthumbs.db
 Thumbs.db
+
+# Visual Studio temp something
+.vs/
+.vs/Hope/xs/UserPrefs.xml
+.vs/Hope/xs/sqlite3/storage.ide-wal
+.vs/Hope/xs/sqlite3/storage.ide-shm
+.vs/Hope/xs/sqlite3/storage.ide-wal
