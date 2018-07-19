@@ -6,6 +6,7 @@ public class Globals : MonoBehaviour {
 
     public static bool IsEndGame;
     public static bool FinishedInteractions;
+    public static int  InteractionsRemaining = 0;
     public static int  DialogueOn = 0;
     public static int  TotalScore = 0;
     public static int  TotalTime = 0;

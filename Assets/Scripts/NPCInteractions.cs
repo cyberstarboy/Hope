@@ -4,6 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class NPCInteractions : MonoBehaviour {
+    [SerializeField] Text scoreText = null;
+    [SerializeField] Text timeText = null;
+    [SerializeField] Text objectsRemainText = null;
+    [SerializeField] Text endGameText = null;
     [SerializeField] GameObject cameraCanvas = null;
     [SerializeField] GameObject activationText = null;
     [SerializeField] DialogueManager currentDM = null;
@@ -23,11 +27,19 @@ public class NPCInteractions : MonoBehaviour {
     [SerializeField] int currentScore = 0;
     [SerializeField] int maxScore = 0;
     Dialogue currentDialogueObject = null;
+    public int objectsRemaining = 0;
+    public int timeVal = 0;
+    public int timeUsed;
 
     // Use this for initialization
     void Start () {
         maxScore = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10;
-	}
+        objectsRemaining = 10;
+        Globals.InteractionsRemaining = 10;
+        timeVal = 0;
+        scoreText.text = "Score: " + Globals.TotalScore.ToString();
+        objectsRemainText.text = "Interactions Remaining: " + Globals.InteractionsRemaining.ToString();
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -52,6 +64,9 @@ public class NPCInteractions : MonoBehaviour {
                 Debug.Log("Update: " + Globals.DialogueOn);
             //}
         }
+
+        timeUsed = (int)(Time.time);
+        timeText.text = "Seconds played:  " + timeUsed.ToString();
 	}
 
 
@@ -105,14 +120,19 @@ public class NPCInteractions : MonoBehaviour {
         Debug.Log("currentScore = " + currentScore);
         Globals.TotalScore = Globals.TotalScore + scoreVal;
         Debug.Log("TotalScore = " + Globals.TotalScore);
+
         if (Globals.TotalScore >= maxScore)
         {
             //Show score and head to church to end the game
             Debug.Log("Go back to church and end the game");
             Globals.FinishedInteractions = true;
-            Globals.TotalScore = currentScore;
+            //Globals.TotalScore = currentScore;
             Debug.Log("TotalScore = " + Globals.TotalScore);
             Debug.Log("Finished Interactions = " + Globals.FinishedInteractions);
+
+            //fill up the scoring UI
+            objectsRemainText.text = "0";
+            endGameText.text = "Mission Accomplished!!!";
         }
         else
         {
@@ -125,10 +145,16 @@ public class NPCInteractions : MonoBehaviour {
     private void DeactivateInteractions()
     {
         Debug.Log("Dectivating Interactions for: " + scoreVal);
+        //NPCObject.SetActive(false);
+        triggerBox.SetActive(false);
         tract.SetActive(false);
         colorPlane.SetActive(false);
         cameraCanvas.SetActive(false);
         activationText.SetActive(false);
+        scoreText.text = "Score: " + Globals.TotalScore.ToString();
+        Globals.InteractionsRemaining = Globals.InteractionsRemaining - 1;
+        objectsRemaining = objectsRemaining - 1;
+        objectsRemainText.text = "Interactions Remaining: " + Globals.InteractionsRemaining.ToString();
 
         //Since finished -- let the game interact again
         Debug.Log("DialogueOn was " + Globals.DialogueOn);
